@@ -1,6 +1,5 @@
 import './App.css';
 import logo from './images/logo.svg'
-import img3 from './images/desktop-preview.jpg';
 import illustration from './images/illustration-mockups.svg';
 import Face from './images/Facebook.svg'
 import Insta from './images/Instagram.svg'
@@ -11,12 +10,12 @@ function App() {
   return (
     <div className="App">
       <div className='Logo'>
-        <img src={logo}></img>
+        <img src={logo} alt='Logo'></img>
       </div>
 
       <div className='sections'>
         <div className='section1'>
-          <img src={illustration}></img>
+          <img src={illustration} alt='Illustration'></img>
         </div>
 
         <div className='section2'>
@@ -36,9 +35,9 @@ function App() {
 
       <footer>
         <div className='Ms'>
-          <a href=''><img src={Face}></img></a>
-          <a href=''><img src={Insta}></img></a>
-          <a href=''><img src={Twit}></img></a>
+          <a href=''><img src={Face} alt='Facebook'></img></a>
+          <a href=''><img src={Insta} alt='Instagram'></img></a>
+          <a href=''><img src={Twit}alt='Twitter'></img></a>
         </div>
         <p class="attribution">
           Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
